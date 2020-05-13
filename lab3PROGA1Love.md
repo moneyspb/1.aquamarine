@@ -35,8 +35,8 @@
 2) Ключ => 00r 00g 00b 10r 10g 10b 01r 01g
 
 3) Код программы 
-
-<b> #include <iostream>
+'''cpp
+#include <iostream>
 #include "include/libbmp.h"
 #include <stdio.h>
 #include <fstream>
@@ -117,6 +117,7 @@ using namespace std;
 	file << res;
 	file.close();
     }
+'''
 
 4) Декодированное сообщение.
 John Adams (October 30, 1735[a] – July 4, 1826) was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States, from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain and served as the first vice president of the United States. Adams was a dedicated diarist and regularly corresponded with many important figures in early American history, including his wife and adviser, Abigail. His letters and other papers serve as an important source of historical information about the era. 
