@@ -35,11 +35,17 @@
 2) Ключ => 00r 00g 00b 10r 10g 10b 01r 01g
 
 3) Код программы 
+
 #include <iostream>
+	
 #include "include/libbmp.h"
+
 #include <stdio.h>
+
 #include <fstream>
+	
 #include <bitset>
+	
 using namespace std;
 
 bool check_bitset(bitset<8>& bits, int& p, char& c)
