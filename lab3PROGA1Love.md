@@ -35,14 +35,15 @@
 2) Ключ => 00r 00g 00b 10r 10g 10b 01r 01g
 
 3) Код программы 
-'''cpp
+	'''cpp
 #include <iostream>
 #include "include/libbmp.h"
 #include <stdio.h>
 #include <fstream>
 #include <bitset>
+
 using namespace std;
-,,,
+	
     bool check_bitset(bitset<8>& bits, int& p, char& c)
     {
     p--;
@@ -59,65 +60,65 @@ using namespace std;
     {
 	BmpImg img;
     
-img.read(filename);
+	img.read(filename);
 
-const int width = img.get_width();
+	const int width = img.get_width();
 	const int height = img.get_height();
 
-bitset<8> bits;
+	bitset<8> bits;
 	int p = 7;
 	string decode_text = "";
 	char c;
 
-for (int i = 0; i < height; i++)
-	{
-		for (int j = 0; j < width; j++)
+	for (int i = 0; i < height; i++)
 		{
-			int red = img.red_at(j, i);
-			int green = img.green_at(j, i);
-			int blue = img.blue_at(j, i);
-
-if (red % 2 == 1)
-			bits.set(p);
-		    if (check_bitset(bits, p, c))
+			for (int j = 0; j < width; j++)
 			{
-				decode_text += c;
-			    	if (c == '\0')
-					return decode_text;
-			}
+				int red = img.red_at(j, i);
+				int green = img.green_at(j, i);
+				int blue = img.blue_at(j, i);
 
-if (green % 2 == 1)
+			if (red % 2 == 1)
 				bits.set(p);
-			    if (check_bitset(bits, p, c))
-			{
-				decode_text += c;
-				    if (c == '\0')
-					return decode_text;
-			}
+		    		if (check_bitset(bits, p, c))
+					{
+					decode_text += c;
+			    		if (c == '\0')
+						return decode_text;
+					}
 
-if (blue % 2 == 1)
-				bits.set(p);
-			    if (check_bitset(bits, p, c))
-			{
-				decode_text += c;
-			    	if (c == '\0')
+			if (green % 2 == 1)
+					bits.set(p);
+			   	 if (check_bitset(bits, p, c))
+				{
+					decode_text += c;
+					    if (c == '\0')
+						return decode_text;
+					}
+					
+			if (blue % 2 == 1)
+					bits.set(p);
+			    	if (check_bitset(bits, p, c))
+				{
+					decode_text += c;
+			    		if (c == '\0')
 					return decode_text;
+				}	
 			}
 		}
-	}
-	return "";
-    }
+		return "";
+  	  }
 
-   int main()
-    {
-	string res = decode_text("pic2.bmp");
-	cout << res << endl;
+  	 int main()
+   	 {
+		string res = decode_text("pic2.bmp");
+		cout << res << endl;
 
-ofstream file("decode.txt");
+	ofstream file("decode.txt");
 	file << res;
 	file.close();
-    }
-'''cpp
+   	 }
+	'''cpp
 4) Декодированное сообщение.
 John Adams (October 30, 1735[a] – July 4, 1826) was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States, from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain and served as the first vice president of the United States. Adams was a dedicated diarist and regularly corresponded with many important figures in early American history, including his wife and adviser, Abigail. His letters and other papers serve as an important source of historical information about the era. 
 A lawyer and political activist prior to the revolution, Adams was devoted to the right to counsel and presumption of innocence. He defied anti-British sentiment and successfully defended British soldiers against murder charges arising from the Boston Massacre. Adams was a Massachusetts delegate to the Continental Congress and became a principal leader of the Revolution. He assisted in drafting the Declaration of Independence in 1776 and was its foremost advocate in Congress. As a diplomat in Europe, he helped negotiate the peace treaty with Great Britain and secured vital governmental loans. Adams was the primary author of the Massachusetts Constitution in 1780, which influenced the United States' own constitution, as did his earlier Thoughts on Government. 
