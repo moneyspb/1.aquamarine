@@ -32,8 +32,8 @@
  1)Окно настроек Qt Creator после настройки для сборки android приложений: 
  ![screenshot_1](https://sun9-56.userapi.com/27MQLY0zQnV4osjOfT3W_UzF3znI0a_bil0F3Q/AeZmLKMT8Zo.jpg)<br> Рис. 1 - Окно настроек Qt Creator после настройки для сборки android приложений <br>
  
- 2) Проект Qt - Bluetooth Low Energy Heart Rate Game 
- ![screenshot_2](https://sun9-14.userapi.com/WF1qUN0N8dZcmhC_IDBaFw_BrgeYXxdsJauZfA/-oo-rUd_0eE.jpg)
+ 2)Проект Qt - Bluetooth Low Energy Heart Rate Game 
+ ![screenshot_2](https://sun9-14.userapi.com/WF1qUN0N8dZcmhC_IDBaFw_BrgeYXxdsJauZfA/-oo-rUd_0eE.jpg)<br>Рис. 2 - Heart Rate Game<br></p>
  
  3)Экран с запущенным  приложением на устройстве:
  ![Screenshot_3](https://sun9-21.userapi.com/dk-rLgN0nz-71J3jeuobtZtbwdOyEuP-bfoqcg/343IdX_NPfQ.jpg)
