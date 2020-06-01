@@ -43,7 +43,7 @@
   Min: 14.1014, Max: 0.5.
   
  3) График функции 4 с нанесенными точками
- ![screenshot_2](https://sun3.43222.userapi.com/G7fglejg_KBg0OH9O_CDBA_IfJwgQO5UZG4jvw/AKA5eOYyhw0.jpg)
+ ![screenshot_2](https://sun3.43222.userapi.com/tb5FY1fJt4uJX95n5hsN3LyZN7ykrsu9cerknA/9Lxu2oABtjM.jpg)
  #### Код программы
 ```cpp
 #include <iostream>
