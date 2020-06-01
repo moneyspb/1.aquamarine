@@ -30,6 +30,8 @@
 
 
 **Ход работы**
+Была выбрана ф-ия ![screenshot_0](https://sun2.43222.userapi.com/IHqqkVidjWPllVk8SkqUoWVCcQ0gO5ij9JqsEQ/qp7-eDY2rYM.jpg)
+ 
  1) Протабулируйте функцию и запишите получившиеся реультаты в отчёт в виде таблицы. При этом ***a*** = 0.7, ***b*** = 1.2, начала и конца интервала ***х<sub>нач</sub>*** = 0.5, ***x<sub>кон</sub>*** = 1.5 и шага ***d<sub>x</sub>*** = 0.05;
  
  ![screenshot_1](https://sun1.43222.userapi.com/exHSXyJpgMPEZzNYF1LlM7s4gDNIO4AOcyxd4A/2iNjLbBires.jpg)
