@@ -38,8 +38,10 @@
  
  ![screenshot_1](https://sun1.43222.userapi.com/exHSXyJpgMPEZzNYF1LlM7s4gDNIO4AOcyxd4A/2iNjLbBires.jpg)
  Результат протабулированной ф-ии.
+ 
  2)  Определите минимальное и максимальное значение функции на указанном интервале и запешите результаты в отчёт;
   Min: 14.1014, Max: 0.5.
+  
  3) График функции 4 с нанесенными точками
  ![screenshot_2](https://sun3.43222.userapi.com/G7fglejg_KBg0OH9O_CDBA_IfJwgQO5UZG4jvw/AKA5eOYyhw0.jpg)
  #### Код программы
