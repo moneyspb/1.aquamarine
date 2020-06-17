@@ -37,15 +37,22 @@
 
     2. Настраиваем проект 
 ![screenshot_2](https://sun9-21.userapi.com/HaymAMPQ5_vhKRTlbPiwRlduzFiUvCuqpozQ7Q/xNVwCjuPBoA.jpg)
+
 Рис.2 Добавление боевого проекта
 
     3. Результаты тестирования:
 
 ![screenshot_3](https://sun1.43222.userapi.com/zjfq5dw9j0vc-X8UwyOCmtZzwYi_Z4CY4cvOxA/uhuSpXELSeA.jpg)
+
 Рис.3 Pезультаты тестирования
+
     4.Исправление ошибки:
+    
+
 Изменить в коде слово Close на Open.
+
 ![screenshot_4](https://sun9-64.userapi.com/Sz7WhQzdmx44h6kR8S8jMkCAQjqhqbqkZQTyhw/7mm0yBRThGQ.jpg)
+
 Рис.4 Тест №5 
     
     Вывод: Я познакомился с Google Test и Google Mock Framework, изучил базовые понятия относящийся к тестированию кода и научился тестировать классы в среде разработки Qt Creator.
