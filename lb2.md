@@ -32,7 +32,9 @@
 **Ход работы**
 
 
-Была выбрана ф-ия ![screenshot_0](https://sun2.43222.userapi.com/IHqqkVidjWPllVk8SkqUoWVCcQ0gO5ij9JqsEQ/qp7-eDY2rYM.jpg)
+Была выбрана ф-ия 
+
+![screenshot_0](https://sun2.43222.userapi.com/IHqqkVidjWPllVk8SkqUoWVCcQ0gO5ij9JqsEQ/qp7-eDY2rYM.jpg)
 
 Рис. 1 Функция
  
